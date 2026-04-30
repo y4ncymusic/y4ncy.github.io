@@ -1,15 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Y4NCY</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 64px;
+      letter-spacing: 8px;
+    }
+
+    p {
+      opacity: 0.7;
+    }
+
+    .section {
+      padding: 80px 20px;
+    }
+
+    iframe {
+      width: 80%;
+      height: 200px;
+      border: none;
+    }
+  </style>
 </head>
 
-<body style="background:black; color:white; text-align:center;">
+<body>
 
-  <h1>Y4NCY</h1>
-  <p>Electronic Artist / DJ / Producer</p>
+  <div class="hero">
+    <h1>Y4NCY</h1>
+    <p>Electronic Artist / DJ / Producer</p>
+  </div>
 
-  <p>Welcome to my official site.</p>
+  <div class="section">
+    <h2>About</h2>
+    <p>
+      Y4NCY is an audiovisual artist exploring hardcore as a language,
+      connecting underground scenes between Asia and the US.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Music</h2>
+    <iframe src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com"></iframe>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <p>Audiovisual Instrument (2026)</p>
+    <p>Live DJ Sets</p>
+  </div>
 
 </body>
 </html>
