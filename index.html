@@ -6,28 +6,6 @@
 
   <style>
     body {
-      <body style="margin:0; background:black; color:white;">
-
-  <div style="position:relative;">
-
-    <img src="Y4NCYWEBMain.JPG" 
-         style="width:100%; height:100vh; object-fit:cover;">
-
-    <h1 style="
-      position:absolute;
-      top:40%;
-      width:100%;
-      text-align:center;
-      font-size:64px;
-      letter-spacing:8px;
-      color:white;
-    ">
-      Y4NCY
-    </h1>
-
-  </div>
-
-</body>
       margin: 0;
       background: black;
       color: white;
@@ -35,11 +13,8 @@
       text-align: center;
     }
 
-    .hero {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    .section {
+      padding: 80px 20px;
     }
 
     h1 {
@@ -49,10 +24,6 @@
 
     p {
       opacity: 0.7;
-    }
-
-    .section {
-      padding: 80px 20px;
     }
 
     iframe {
@@ -65,8 +36,34 @@
 
 <body>
 
-  <div class="hero">
-    <h1>Y4NCY</h1>
+  <!-- 🔥 顶部大图 -->
+  <div style="position:relative;">
+    <img src="Y4NCYWEBMain.JPG" 
+         style="width:100%; height:100vh; object-fit:cover;">
+
+    <div style="
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background:rgba(0,0,0,0.4);
+    "></div>
+
+    <h1 style="
+      position:absolute;
+      top:40%;
+      width:100%;
+      text-align:center;
+      font-size:64px;
+      letter-spacing:8px;
+    ">
+      Y4NCY
+    </h1>
+  </div>
+
+  <!-- 👇 内容区 -->
+  <div class="section">
     <p>Electronic Artist / DJ / Producer</p>
   </div>
 
