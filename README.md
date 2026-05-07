@@ -10,6 +10,7 @@ At the beginning, I wanted to place a large image on the homepage as the main vi
 I asked ChatGPT why this happened, and I learned that browsers automatically add default margin around the <body> element. This default margin created the white border around my image.
 To fix this problem, I added CSS to remove the default margin and control the basic visual style of the website.
 <img src="gpt1.png" width="300">
+<img src="p1.png" width="300">
 
  
 </style>
@@ -33,6 +34,8 @@ Then I created a fixed navigation bar
 I used position:fixed because I wanted the link bar to always stay at the top of the page, even when the user scrolls down. I also used background:rgba(0,0,0,0.6) to create a semi-transparent black background, so the navigation bar can still be readable but not completely block the image behind it.
 The display:flex, justify-content:center, and gap:30px helped me place all the links in one horizontal row with equal spacing.
 <img src="gpt2.png" width="300">
+<img src="p2.png" width="300">
+<img src="p3.png" width="300">
 
 
 
@@ -59,6 +62,7 @@ When the user moves the mouse over the cover image, the opacity becomes lower, s
 
 
 
+
 Stage 4: Troubleshooting the Music Section Layout
 After I added more music releases, I ran into another problem. I had three songs in the music section, but they appeared vertically instead of horizontally. Also, the cover images had different sizes, which made the website look messy and inconsistent.
 At first, I did not know whether this was caused by the image files or by the HTML structure. I asked ChatGPT how to fix it. ChatGPT explained that by default, block elements such as <div> naturally stack vertically. If I wanted the three songs to appear side by side, I needed to create a layout container using CSS Flexbox.
@@ -67,6 +71,7 @@ To solve this,
 The display:flex makes the song cards line up horizontally. The justify-content:center keeps them centered on the page. The gap:30px creates space between each song. I also used flex-wrap:wrap so that if the browser window is too small, the song cards can automatically move to the next line instead of being squeezed too much.
 Then I fixed the inconsistent cover sizes by setting the same width and height for every image:
 <img src="gpt4.png" width="300"><img src="gpt5.png" width="300"> <img src="gpt6.png" width="300">
+<img src="p4.png" width="300">
 
 The most important part here is:
 width:250px;
