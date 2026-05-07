@@ -9,7 +9,7 @@ Stage 1: Basic Visual Design
 At the beginning, I wanted to place a large image on the homepage as the main visual background. However, after I added the image, I noticed that there was a white edge around the website, and the image did not fully cover the screen.
 I asked ChatGPT why this happened, and I learned that browsers automatically add default margin around the <body> element. This default margin created the white border around my image.
 To fix this problem, I added CSS to remove the default margin and control the basic visual style of the website.
-<img src="gpt1.png" width="200">
+<img src="gpt1.png" width="300">
 
  
 </style>
