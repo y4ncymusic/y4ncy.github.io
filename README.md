@@ -32,11 +32,11 @@ Then I created a fixed navigation bar
 
 I used position:fixed because I wanted the link bar to always stay at the top of the page, even when the user scrolls down. I also used background:rgba(0,0,0,0.6) to create a semi-transparent black background, so the navigation bar can still be readable but not completely block the image behind it.
 The display:flex, justify-content:center, and gap:30px helped me place all the links in one horizontal row with equal spacing.
+<img src="gpt2.png" width="300">
 
 
 
-
-Stage 2: Font and Position Adjustment
+Stage 3: Font and Position Adjustment
 After adding the navigation bar, I felt the default font looked too simple and did not match my artist identity. I wanted the main “Y4NCY” logo text to feel more futuristic and electronic, so I downloaded a font and uploaded it into my project folder.
 Then I used @font-face in CSS to load the custom font:
 
@@ -55,6 +55,7 @@ I asked ChatGPT how to make an image clickable and add a simple animation effect
 
 From this, I learned that I could make an image clickable by placing the image inside the <a> tag. I also learned that transition:0.3s makes the visual change smoother, and the onmouseover / onmouseout effects can create a simple hover animation.
 When the user moves the mouse over the cover image, the opacity becomes lower, so it feels interactive. When the mouse leaves the image, it returns to normal.
+<img src="gpt3.png" width="700">
 
 
 
@@ -65,6 +66,7 @@ To solve this,
 
 The display:flex makes the song cards line up horizontally. The justify-content:center keeps them centered on the page. The gap:30px creates space between each song. I also used flex-wrap:wrap so that if the browser window is too small, the song cards can automatically move to the next line instead of being squeezed too much.
 Then I fixed the inconsistent cover sizes by setting the same width and height for every image:
+<img src="gpt4.png" width="300"><img src="gpt5.png" width="300"> <img src="gpt6.png" width="300">
 
 The most important part here is:
 width:250px;
